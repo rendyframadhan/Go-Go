@@ -79,4 +79,11 @@ func main() {
 	fmt.Println("Subtraction Decimal : ", float64(a)-decimal)
 	fmt.Println("Multiplication : ", a*b)
 	fmt.Println("Division : ", a/b)
+
+	var mixAllOperationVer1 = float64(a/b+a-b) * decimal
+	var mixAllOperationVer2 = float64(a)/float64(b) + float64(a) - float64(b)*decimal
+	// If you want to do int and float operational, you need to convert the int to float first
+	fmt.Println("Mix all Ver 1 : ", mixAllOperationVer1)
+	fmt.Println("Mix all Ver 2 : ", mixAllOperationVer2)
+	fmt.Println(float64(a+b) - decimal)
 }
