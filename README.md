@@ -1,2 +1,2 @@
 # learning-basic-golang
-Learning Basic of Go Language ^^
+Learning Basic of Go Language
